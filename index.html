@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vam</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+</head>
+<body>
+    <div class="vam w-[600px] flex-col flex-wrap bg-gray-400  mx-auto mt-[50px]  rounded-b-[25px] pb-[30px]  ">
+        <button  class=" btn-content bg-gray-700  w-[600px] block mx-auto mt-[10px] pb-[25px] rounded-b-[10px] pt-[10px] text-xl hover:text-white duration-[300ms] ">انواع وام</button>
+        <div class=" btn-kind  animate__animated animate__fadeInDown bg-gray-300 justify-evenly w-[521px] mt-3   leading-[40px]  text-center pr-[10px] rounded-[10px]  mx-auto hidden ">
+            <div class="btn-car   hover:bg-gray-500  duration-[300ms] w-[521px] ">ماشین  </div>
+            <div class="btn-marid hover:bg-gray-500  duration-[300ms] w-[521px] ">ازدواج</div>
+            <div class="btn-home  hover:bg-gray-500  duration-[300ms] w-[521px] ">مسکن</div>
+            <div class="btn-bild  hover:bg-gray-500  duration-[300ms] w-[521px] ">بازسازی</div>
+        </div>
+     
+       <div class="flex flex-row-reverse justify-between">
+        <h2 class="text-center mt-[25px] mr-[70px] ">نوع وام</h2>
+        <div class=" btn-key w-[200px] bg-white block mx-auto text-center h-[28px] leading-[28px] rounded-[5px] border-none mt-[15px]" id="" placeholder="Ex: 20.000.000"></div>
+       </div>
+
+       <div class="flex flex-row-reverse justify-between">
+        <h2 class="text-center mt-[25px] mr-[70px] ">مبلغ وام</h2>
+        <div class=" btn-cost w-[200px] bg-white block mx-auto text-center h-[28px] leading-[28px] rounded-[5px] border-none mt-[15px]" id="" placeholder="Ex: 20.000.000"></div>
+       </div>
+
+      <div  class="flex flex-row-reverse justify-between">
+          <h2 class="text-center mt-[20px] mr-[70px] ">در صد  سود</h2>
+        <div class="btn-sood w-[100px] bg-white block mx-auto text-center h-[28px]  rounded-[5px]    border-none mt-[10px] leading-[28px]"></div>
+      </div>
+      <div class="flex flex-row-reverse justify-between mb-[25px]">
+        <h2 class="text-center mt-[20px] mr-[70px] ">تعداد اقساط</h2>
+        <div class=" btn-ghest w-[100px] bg-white block mx-auto text-center h-[28px]  rounded-[5px] border-none mt-[10px] leading-[28px]"></div>
+    
+      </div>
+      
+        <div class="flex justify-between mx-[80px]  mt-[20px]">
+            <button class="btn-calc bg-blue-800 text-white p-[10px] rounded-[10px]  hover:bg-blue-950 duration-[300ms] ">  اقساط ماهانه</button>
+            <div class="btn-ans w-[300px] h-[30px] rounded-[5px] bg-white  animate__animated animate__fadeInDown text-center leading-[30px] hidden"></div>
+        </div>
+        <h2 class="text-center mt-[55px] ">مبلغ نهایی پرداخت شده</h2>
+        <div class=" btn-restore w-[250px]  bg-white mx-auto text-center h-[30px]  animate__animated animate__fadeInDown rounded-[5px] border-none mt-[20px] hidden leading-[30px]"></div>
+        <!-- <script src="./js/script.js"></script> -->
+    </div>
+  
+     <script src="./js/script.js"></script> 
+   
+</body>
+</html>
